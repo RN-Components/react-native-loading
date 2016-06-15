@@ -42,7 +42,7 @@ class YourComponent extends React.Component {
   }
   ```
  
- #### 效果
+#### 效果
   
  ![demo.gif](demo.gif) 
   
