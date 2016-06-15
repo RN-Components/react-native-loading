@@ -1,5 +1,8 @@
 # react-native-loading
 react-native-loading
+
+*只在 RN 0.25+ 上测试用过
+
 #### 使用
 
 ```js
@@ -38,12 +41,12 @@ class YourComponent extends React.Component {
     )  
   }
   ```
-  
-  #### 效果
+ 
+ #### 效果
   
  ![demo.gif](demo.gif) 
   
-  #### 支持的属性
+#### 支持的属性
   
 - loadingShow (true or false) - isRequired.
 - size - loading 效果的尺寸.
