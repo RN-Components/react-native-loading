@@ -1,0 +1,19 @@
+{
+  "name": "react-native-loading",
+  "version": "0.1.0",
+  "description": "react native loading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyygtfx/react-native-loading.git"
+  },
+  "author": "Go7hic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dyygtfx/react-native-loading/issues"
+  },
+  "homepage": "https://github.com/dyygtfx/react-native-loading#readme"
+}
