@@ -6,7 +6,7 @@ react-native-loading
 #### 使用
 
 ```js
-import Loading  from 'react-native-loading'
+import Loading  from 'reactNativeLoading'
 
 class YourComponent extends React.Component {
   constructor(props){
