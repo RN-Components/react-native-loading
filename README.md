@@ -5,6 +5,8 @@ react-native-loading
 
 #### 使用
 
+``` npm install reactNativeLoading --save ```
+
 ```js
 import Loading  from 'reactNativeLoading'
 
