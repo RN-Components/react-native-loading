@@ -48,7 +48,7 @@ class YourComponent extends React.Component {
   
 #### 支持的属性
   
-- loadingShow (true or false) - isRequired.
+- loadingShow (true or false) - 是否显示（必填）.
 - size - loading 效果的尺寸.
 - color (Number) - loading 效果的颜色.
 - overlayWidth (Number) - 整个 loading 遮罩层的宽度
