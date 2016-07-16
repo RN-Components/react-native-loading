@@ -1,11 +1,10 @@
 import React from 'react'
 import {
   StyleSheet,
-  ActivityIndicatorIOS,
+  ActivityIndicator,
   View,
   Text,
   Platform,
-  ProgressBarAndroid,
 } from 'react-native'
 
 
@@ -25,7 +24,7 @@ export default class Loading extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-       isLoading: false,
+      isLoading: false,
     }
   }
   static propTypes = {
@@ -75,9 +74,7 @@ export default class Loading extends React.Component {
       return (
         <View style={styles.container}>
           <View style={customStyles.overlay}>
-            {(Platform.OS === 'ios') ?
-              <ActivityIndicatorIOS color={this.props.color} size={this.props.size} /> :
-              <ProgressBarAndroid styleAttr={this.props.size} color={this.props.color} />}
+            <ActivityIndicator color={this.props.color} size={this.props.size} />
             <Text style={customStyles.text}>{this.props.text}</Text>
           </View>
         </View>
